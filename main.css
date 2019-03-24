@@ -1,0 +1,40 @@
+body {
+  margin: 60px auto;
+  width: 70%;
+  background-image: url("images/back2.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-color: #cccccc;
+}
+
+h1 {
+  color: white;
+  font-family: 'Arial';
+}
+
+nav ul, footer ul {
+  font-family: "Arial", "Sans-Serif";
+  padding: 0px;
+  list-style: none;
+  display: inline-block;
+  font-weight: bold;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  border-top: 1px solid #d5d5d5;
+  font-size: .8em;
+}
