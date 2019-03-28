@@ -1,10 +1,16 @@
-body {
+.index-page {
   margin: 60px auto;
   width: 70%;
   background-image: url("images/back2.jpg");
   background-size: cover;
   background-repeat: repeat-x;
   background-color: #cccccc;
+}
+
+.other-page {
+  margin: 60px auto;
+  width: 70%;
+  background-color: black;
 }
 
 h1 {
@@ -23,6 +29,7 @@ nav ul, footer ul {
   list-style: none;
   display: inline-block;
   font-weight: bold;
+  color: white;
 }
 
 nav li {
@@ -53,6 +60,11 @@ p {
   }
 }
 
+.container-black {
+  background-color: rgba(0,0,0,0.5);
+  padding: 5px 20px;
+}
+
 .nav-page {
   text-decoration: underline;
   text-decoration-color: white;
@@ -62,6 +74,16 @@ p {
   background-color: red;
   color: red;
   text-decoration: none;
+}
+
+.main-text li {
+  font-family: "Arial", "Sans-Serif";
+  font-size: 14px;
+  padding: 1px;
+  list-style: circle;
+  font-weight: normal;
+  color: white;
+  max-width: 500px;
 }
 
 
