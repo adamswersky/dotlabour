@@ -19,7 +19,7 @@ h2 {
 
 nav ul, footer ul {
   font-family: "Arial", "Sans-Serif";
-  padding: 0px;
+  padding: 1px;
   list-style: none;
   display: inline-block;
   font-weight: bold;
@@ -28,6 +28,7 @@ nav ul, footer ul {
 nav li {
   display: inline;
   text-align: center;
+  padding-right: 10px;
 }
 
 a {
@@ -36,11 +37,36 @@ a {
 }
 
 a:hover {
+
+}
+
+p {
+  color: white;
+  font-family: 'Arial';
+  font-size: 14px;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    width: 100%;
+  }
+}
+
+.nav-page {
   text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.nav-hover {
+  background-color: red;
+  color: red;
+  text-decoration: none;
 }
 
 
 footer {
+  margin-top: 10px;
   border-top: 1px solid #d5d5d5;
   font-size: .8em;
 }
